@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ASP.Net_MVC_Demo.Models
+namespace dotnet.web.api
 {
     public enum UserStatus
     {

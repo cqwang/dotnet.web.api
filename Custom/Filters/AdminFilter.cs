@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ASP.Net_MVC_Demo.Custom.Filters
+namespace dotnet.web.api
 {
     public class AdminFilter : ActionFilterAttribute
     {

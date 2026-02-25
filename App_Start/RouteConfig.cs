@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Invest.WebAPI
+namespace dotnet.web.api
 {
 	public class RouteConfig
 	{

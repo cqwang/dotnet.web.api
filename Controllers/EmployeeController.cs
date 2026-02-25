@@ -9,7 +9,7 @@ using ASP.Net_MVC_Demo.BusinessLayer;
 using ASP.Net_MVC_Demo.Custom.ModelBinder;
 using ASP.Net_MVC_Demo.Custom.Filters;
 
-namespace ASP.Net_MVC_Demo.Controllers
+namespace dotnet.web.api
 {
     public class EmployeeController : Controller
     {

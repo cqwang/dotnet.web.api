@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.ComponentModel.DataAnnotations;
 
-namespace ASP.Net_MVC_Demo.Custom.Validation
+namespace dotnet.web.api
 {
     public class FirstNameValidationAttribute : ValidationAttribute
     {

@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-using ASP.Net_MVC_Demo.Models;
-using ASP.Net_MVC_Demo.DataAccessLayer;
-
-namespace ASP.Net_MVC_Demo.BusinessLayer
+namespace dotnet.web.api
 {
     public class EmployeeBusiness
     {

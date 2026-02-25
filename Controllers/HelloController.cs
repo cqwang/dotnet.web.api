@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using ASP.Net_MVC_Demo.Models;
 
-namespace ASP.Net_MVC_Demo.Controllers
+namespace dotnet.web.api
 {
     public class HelloController : Controller
     {

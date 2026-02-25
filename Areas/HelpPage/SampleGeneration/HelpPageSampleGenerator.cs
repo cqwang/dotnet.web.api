@@ -13,7 +13,7 @@ using System.Web.Http.Description;
 using System.Xml.Linq;
 using Newtonsoft.Json;
 
-namespace Invest.WebAPI.Areas.HelpPage
+namespace dotnet.web.api
 {
     /// <summary>
     /// This class will generate the samples for the help page.

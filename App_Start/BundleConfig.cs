@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Invest.WebAPI
+namespace dotnet.web.api
 {
 	public class BundleConfig
 	{

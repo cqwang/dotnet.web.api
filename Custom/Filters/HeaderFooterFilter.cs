@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using ASP.Net_MVC_Demo.ViewModels;
 
-namespace ASP.Net_MVC_Demo.Custom.Filters
+namespace dotnet.web.api
 {
     public class HeaderFooterFilterAttribute : ActionFilterAttribute
     {

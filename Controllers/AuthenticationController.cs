@@ -7,7 +7,7 @@ using ASP.Net_MVC_Demo.Models;
 using ASP.Net_MVC_Demo.BusinessLayer;
 using System.Web.Security;
 
-namespace ASP.Net_MVC_Demo.Controllers
+namespace dotnet.web.api
 {
     public class AuthenticationController : Controller
     {

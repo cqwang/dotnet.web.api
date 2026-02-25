@@ -3,7 +3,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using Invest.WebAPI.Areas.HelpPage.Models;
 
-namespace Invest.WebAPI.Areas.HelpPage.Controllers
+namespace dotnet.web.api
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

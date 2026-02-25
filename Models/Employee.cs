@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
-using ASP.Net_MVC_Demo.Custom.Validation;
 
-namespace ASP.Net_MVC_Demo.Models
+namespace dotnet.web.api
 {
     public class Employee
     {

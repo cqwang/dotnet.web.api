@@ -11,7 +11,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ASP.Net_MVC_Demo.Controllers
+namespace dotnet.web.api
 {
     public class BulkUploadController : AsyncController
     {
