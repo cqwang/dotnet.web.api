@@ -1,0 +1,29 @@
+﻿@model ASP.Net_MVC_Demo.ViewModels.EmployeeListViewModel
+@{
+    Layout = "~/Views/Shared/FooterLayout.cshtml";
+}
+
+@section TitleSection
+{
+    IndexView
+}
+
+@section ContentBody
+{
+    <div>
+        @{Html.RenderAction("GetAddNewLink");}
+        <table border="1">
+            <tr>
+                <th>Employee Name</th>
+                <th>Salary</th>
+            </tr>
+            @foreach (var employee in Model.Employees)
+            {
+                <tr>
+                <td>@employee.EmployeeName</td>
+                <td style="background-color:@employee.SalaryColor">@employee.Salary</td>
+                </tr>
+            }
+        </table>
+    </div>
+}

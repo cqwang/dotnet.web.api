@@ -1,0 +1,59 @@
+﻿@model ASP.Net_MVC_Demo.ViewModels.CreateEmployeeViewModel
+@{
+    ViewBag.Title = "CreateEmployeeView";
+    Layout = "~/Views/Shared/FooterLayout.cshtml";
+}
+
+@section TitleSection
+{
+    CreateEmployeeView
+}
+
+@section HeaderSection
+{
+    <script src="../../Scripts/JavaScript/Validations.js"></script>
+    <script>
+        function ResetForm() {
+            document.getElementById('TxtFName').value = "";
+            document.getElementById('TxtLName').value = "";
+            document.getElementById('TxtSalary').value = "";
+        }
+    </script>
+}
+
+@section ContentBody
+{
+    <div>
+        <form action="/Employee/SaveEmployee" method="post">
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" id="TxtFName" name="FirstName" value="@Model.FirstName" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">@Html.ValidationMessage("FirstName")</td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" id="TxtLName" name="LastName" value="@Model.LastName" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">@Html.ValidationMessage("LastName")</td>
+                </tr>
+                <tr>
+                    <td>Salary:</td>
+                    <td><input type="text" id="TxtSalary" name="Salary" value="@Model.Salary" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">@Html.ValidationMessage("Salary")</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="BtnSubmit" value="Save Employee" onclick="IsValid();" />
+                        <input type="submit" name="BtnSubmit" value="Cancel" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+}

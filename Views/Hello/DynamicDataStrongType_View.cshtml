@@ -1,0 +1,20 @@
+﻿@model ASP.Net_MVC_Demo.Models.Employee
+
+@{
+    ViewBag.Title = "DynamicDataStrongType_View";
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>动态数据强类型视图</title>
+    </head>
+    
+    <body>
+        <div>
+            Employee Name: @Model.FirstName @Model.LastName<br />
+            Employee Salary: @Model.Salary.ToString("C")<br />
+        </div>
+    </body>
+</html>
